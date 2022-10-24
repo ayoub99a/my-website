@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="dev ayb portfolio website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayoub Dev</title>
+    <link rel="icon" href="./imgs/icon.webp" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+
+    <header class="main-header">
+      <div class="container">
+        <h2 class="logo">
+          <a href="index.html" aria-label="Go back to Home page">
+            <i class="fa-solid fa-code"></i>
+          </a>
+        </h2>
+        <nav class="links" id="links">
+          <a href="#services" aria-label="Go To Services">services</a>
+          <a href="#portfolio" aria-label="Go To Portfolio Section"
+            >portfolio</a
+          >
+          <a href="#skills" aria-label="Go To Skills Section">skills</a>
+          <a href="#contact" aria-label="Go To Contact Section">contact</a>
+        </nav>
+        <span class="toggle-menu" id="toggleMenu">
+          <span class="top"></span>
+          <span class="mid"></span>
+          <span class="bot"></span>
+        </span>
+      </div>
+    </header>
+
+    <!-- End Header -->
+    <!-- Start Landing -->
+
+    <section class="landing">
+      <div class="container">
+        <div class="text">
+          <span class="greet">hello, i'm ayoub</span>
+          <h2>frontend developer</h2>
+          <p>
+            always make with love
+            <i class="fa-solid fa-heart heart"></i>
+          </p>
+          <a
+            href="#portfolio"
+            class="special-btn"
+            aria-label="Go To Portfolio Section"
+          >
+            view my work
+          </a>
+          <div class="social">
+            <a
+              href="https://www.facebook.com/ayuob99h"
+              target="_blank"
+              aria-label="Go to Facebook Profile"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://twitter.com/Ayuob_Al3raqi"
+              target="_blank"
+              aria-label="Go to Twitter Profile"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/%D8%A3%D9%8A%D9%88%D8%A8-%D8%AC%D8%A7%D8%B3%D9%85-%D9%85%D8%AD%D9%85%D8%AF-1151831b9/"
+              target="_blank"
+              aria-label="Go to Linkedin Profile"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://github.com/ayoub99a"
+              target="_blank"
+              aria-label="Go to GitHub Profile"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./imgs/landing.webp" alt="Landing" />
+        </div>
+      </div>
+    </section>
+    <!-- End Landing -->
+    <!-- Start Services -->
+
+    <section class="cards services" id="services" data-section="services">
+      <h2 class="main-heading">
+        <a href="#services" aria-label="Go To Services Section"> services </a>
+      </h2>
+      <div class="container">
+        <div class="card">
+          <i class="fa-solid fa-lightbulb main-icon"></i>
+          <h3>create from scratch</h3>
+          <p>Use your design to build a new website from scratch.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-code main-icon"></i>
+          <h3>live coding</h3>
+          <p>
+            Thanks to GitHub. you will watch the edits on your website when
+            coding.
+          </p>
+        </div>
+        <div class="card">
+          <div class="main-icon">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <i class="fa-solid fa-tablet-screen-button"></i>
+            <i class="fa-solid fa-desktop"></i>
+          </div>
+          <h3>responsive design</h3>
+          <p>
+            Make sure that your website works awesome & looks beautiful in
+            different screens.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-js main-icon"></i>
+          <h3>Interactive Website</h3>
+          <p>
+            Using JavaScript & React, I can build an interactive website to
+            ensure best user experience.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-broom main-icon"></i>
+          <h3>Clean & Reusable Code</h3>
+          <p>
+            I can write clean code without non-useful & legacy code. also write
+            reusable code to minimize the files sizes for your website.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-headset main-icon"></i>
+          <h3>support service</h3>
+          <p>
+            Provide the maintenance service after finish your project for a
+            week. It's free for your edit & fix probably issues.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Services -->
+    <!-- Start Portfolio -->
+
+    <section class="cards portfolio" id="portfolio">
+      <h2 class="main-heading">
+        <a href="#portfolio" aria-label="Go To Portfolio Section">portfolio</a>
+      </h2>
+      <div class="container">
+        <div class="card">
+          <a
+            href="https://cruds-by-js.netlify.app/"
+            target="_blank"
+            aria-label="Go To Design 1 Live website"
+          >
+            <img src="imgs/website_01.webp" alt="CRUD System" />
+          </a>
+          <div class="info">
+            <h4>Product Management System</h4>
+            <div class="icons">
+              <a
+                href="https://github.com/ayoub99a/CRUDS-By-JS"
+                target="_blank"
+                aria-label="Go To Design 1 Repo"
+              >
+                <i class="fa-brands fa-github small-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card disabled">
+          <a href="#" target="_blank" aria-label="Website_02">
+            <!-- <img src="" alt="phone center" /> -->
+          </a>
+          <div class="info">
+            <h4></h4>
+            <div class="icons">
+              <a href="#" target="_blank" aria-label="">
+                <!-- <i class="fa-brands fa-github small-icon"></i> -->
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card disabled">
+          <a href="#" target="_blank" aria-label="Go To Design 3 Repo">
+            <!-- <img src="" alt="Website_03" /> -->
+          </a>
+          <div class="info">
+            <h4></h4>
+            <div class="icons">
+              <a href="#" target="_blank" aria-label="Go To Design 3 Repo">
+                <!-- <i class="fa-brands fa-github small-icon"></i> -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Portfolio -->
+    <!-- Start Skills -->
+    <div class="skills" id="skills">
+      <h2 class="main-heading">
+        <a href="#skills">skills</a>
+      </h2>
+      <div class="container">
+        <div class="skills-group">
+          <h3>languages i speak:</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="skills-group">
+          <h3>libraries and webkits:</h3>
+          <ul>
+            <li>bootstrap</li>
+            <li>SASS</li>
+            <li>fontawesome</li>
+            <li>git</li>
+            <li>GitHub</li>
+            <li>green sock(gsap)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills -->
+    <!-- Start Contact -->
+
+    <section class="contact cards" id="contact">
+      <h2 class="main-heading">
+        <a href="#contact">contact</a>
+      </h2>
+      <div class="container">
+        <div class="channel">
+          <i class="fa-solid fa-phone channel-icon"></i>
+          <h3>phone</h3>
+          <p>+9647807559165</p>
+        </div>
+        <div class="channel">
+          <i class="fa-solid fa-envelope channel-icon"></i>
+          <h3>email</h3>
+          <p>ayoub1999118@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Contact -->
+    <!-- Start Footer -->
+
+    <footer class="main-footer">
+      <p>all right reserved for Ayoub Elhoot</p>
+      <div class="social">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          aria-label="Go to Facebook Profile"
+        >
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          aria-label="Go to Twitter Profile"
+        >
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          aria-label="Go to linkedin Profile"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://www.github.com"
+          target="_blank"
+          aria-label="Go to GitHub Profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <i class="fa-solid fa-arrow-up scrollToTop" id="scrollToTop"></i>
+    <script src="js/main.js"></script>
+  </body>
+</html>
