@@ -26,9 +26,15 @@ window.addEventListener("scroll", function () {
 
 function appearCards(section) {
   let theTargetCards = document.querySelectorAll(`.${section} .card`);
-  theTargetCards.forEach((card) => {
-    card.style.opacity = "1";
-  });
+  if (section === "services") {
+    theTargetCards.forEach((card) => {
+      card.style.cssText = `opacity: 1; top: 0`;
+    });
+  } else {
+    theTargetCards.forEach((card) => {
+      card.style.cssText = `opacity: 1; left: 0`;
+    });
+  }
 }
 
 // Scroll to top Button
